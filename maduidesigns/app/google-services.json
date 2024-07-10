@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484109799809",
+    "project_id": "academease-db29b",
+    "storage_bucket": "academease-db29b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484109799809:android:724c626f2d1951b25e1880",
+        "android_client_info": {
+          "package_name": "com.ac.maduidesigns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQmABkbTfeRNOXhlD5m3g8GpQcXrtrIwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

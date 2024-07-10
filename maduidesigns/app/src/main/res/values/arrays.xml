@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="spinner_items_array">
+    <item>Once a day</item>
+    <item>Twice a day</item>
+    <item>Thrice a day</item>
+    <item>Once a week</item>
+    <item>Twice a week</item>
+    <item>Thrice a week</item>
+</string-array>
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Erode</item>
+        <item>Madurai</item>
+        <item>Thanjavur</item>
+    </string-array>
+</resources>

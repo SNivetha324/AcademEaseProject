@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_gradient"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_toRightOf="@+id/back_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add New Task"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="20dp"
+        android:text="What is to be done"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/what"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:background="@null"
+        android:hint="New Task"
+        android:textSize="20sp"
+        android:textColor="#282729"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:id="@+id/due"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Due Date"
+        android:layout_below="@+id/edt1"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <DatePicker
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/date"
+        android:layout_below="@+id/due"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/grey"
+        android:theme="@style/CustomDatePickerTheme"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/date"
+        android:backgroundTint="@color/grey"
+        android:layout_marginLeft="20dp"
+        android:theme="@style/CustomDatePickerTheme"
+        android:timePickerMode="spinner" />
+    <TextView
+        android:id="@+id/repeat"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Repeat"
+        android:layout_below="@+id/time"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/repspin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repeat"
+        android:popupTheme="@style/CustomSpinnerDropdownItem"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp"
+        android:backgroundTint="#656168"
+        android:id="@+id/tick_button"
+        android:src="@drawable/baseline_add_task_24"
+        />
+
+
+
+
+
+</RelativeLayout>

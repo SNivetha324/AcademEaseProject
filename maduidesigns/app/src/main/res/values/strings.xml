@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">maduidesigns</string>
+    <string-array name="spinner_items1">
+        <item>Daily once</item>
+        <item>Once a day</item>
+        <item>Twice a day</item>
+        <item>weekly once</item>
+        <item>monthly once</item>
+    </string-array>
+
+    <string-array name="spinner_items2">
+        <item>Education</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>Food</item>
+        <item>Kids</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <string-array name="venue_names">
+        <item>Grand Ballroom</item>
+        <item>Conference Hall A</item>
+        <item>Conference Hall B</item>
+        <item>Exhibition Center</item>
+        <item>Garden Pavilion</item>
+        <item>Sky Lounge</item>
+        <item>Riverside Terrace</item>
+        <item>Theater Room</item>
+        <item>Banquet Hall</item>
+        <item>Lakeside Pavilion</item>
+        <item>City View Terrace</item>
+        <item>Heritage Hall</item>
+        <item>Palm Court</item>
+        <item>Crystal Ballroom</item>
+        <item>Function Room</item>
+        <item>Atrium</item>
+        <item>Sunset Terrace</item>
+        <item>Harbor View Room</item>
+        <item>Rose Garden</item>
+        <item>Marina Hall</item>
+        <item>Winter Garden</item>
+        <item>Elegant Suite</item>
+        <item>Moonlight Pavilion</item>
+        <item>Ocean View Room</item>
+        <item>Mountain View Ballroom</item>
+        <item>Victorian Hall</item>
+        <item>Royal Terrace</item>
+        <item>Sapphire Room</item>
+        <item>Emerald Pavilion</item>
+        <item>Starry Sky Hall</item>
+        <item>Golden Gate Ballroom</item>
+        <!-- Add more venue names here -->
+    </string-array>
+
+    <string name="map_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC6Gbkv6XkxAx4OV7jIT-YeN-mfsHXunDo</string>
+
+    <string-array name="tamil_nadu_cities">
+        <item>select city </item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Madurai</item>
+        <item>Tiruchirappalli</item>
+        <item>Salem</item>
+        <item>Tirunelveli</item>
+        <item>Erode</item>
+        <item>Tiruppur</item>
+        <item>Vellore</item>
+        <item>Thoothukudi</item>
+        <item>Dindigul</item>
+        <item>Kanchipuram</item>
+        <item>Kumbakonam</item>
+        <item>Karur</item>
+        <item>Nagercoil</item>
+        <item>Ooty</item>
+        <item>Ramanathapuram</item>
+        <item>Pudukkottai</item>
+        <item>Thanjavur</item>
+        <item>Namakkal</item>
+        <item>Perambalur</item>
+        <item>Udhagamandalam</item>
+        <item>Virudhunagar</item>
+        <!-- Add more cities as needed -->
+    </string-array>
+
+
+    <string name="channel_name">Your Channel Name</string>
+    <string name="channel_description">Your Channel Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

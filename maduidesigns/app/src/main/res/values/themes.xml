@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Maduidesigns" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/peach</item>
+        <item name="colorPrimaryVariant">@color/peach</item>
+        <item name="android:statusBarColor">#90D6F4</item>
+    </style>
+
+
+        <style name="Theme.App" parent="@android:style/Theme.DeviceDefault" />
+
+
+    <style name="Theme.Maduidesigns" parent="Base.Theme.Maduidesigns" />
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#F8CBD8</item>
+    </style>
+
+    <style name="CardView." parent="CardView">
+        <item name="android:background">@drawable/gradient</item>
+
+    </style>
+
+    <style name="ActivityWithBackgroundGradient" parent="Base.Theme.Maduidesigns">
+        <item name="android:background">@drawable/background_gradient</item>
+    </style>
+
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="postSplashScreenTheme"> @style/Base.Theme.Maduidesigns</item>
+    </style>
+
+    <style name="CustomSpinnerDropdownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">#232323</item>
+    </style>
+    <style name="CustomDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="android:colorControlActivated">#232323</item>
+    </style>
+
+    <!--theme style night mode switch-->
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/notification</item>
+        <item name="colorSwitchThumbNormal">@color/peach</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+    <!--theme mode for notifications-->
+    <style name="notificationSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/notification</item>
+        <item name="colorSwitchThumbNormal">@color/peach</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+    <!--theme mode for privateaccount-->
+    <style name="privateAccountSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/private_account</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>
